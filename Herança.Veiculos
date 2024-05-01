@@ -1,0 +1,42 @@
+package Model;
+
+public class Veiculos {
+	
+
+	protected String Marca;
+	protected String Modelo;
+	protected String Combustível;
+
+	public Veiculos(String Marca, String Modelo, String Combustível) {
+		this.Marca = Marca;
+		this.Modelo = Modelo;
+		this.Combustível = Combustível;
+	}
+
+		public void setMarca(String Marca)
+	{ //Setando para artribuir valor a Marca
+		this.Marca = Marca;
+	}
+
+	public String getMarca() { //Setando para retornar a marca
+		return Marca;
+	}
+
+	public void setModelo(String Modelo) { //Setando para atribuir valor a modelo
+		this.Modelo = Modelo;
+	}
+
+	public String getModelo() { //Setando para retornar o modelo
+		return Modelo;
+	}
+	
+	public void setCombustível(String Combustível)
+	{ //Setando para artribuir valor a Marca
+		this.Combustível = Combustível;
+	}
+
+	public String getCombustível() 
+	{ //Setando para retornar a marca
+		return Combustível;
+	}
+}
