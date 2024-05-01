@@ -1,0 +1,23 @@
+package Model;
+
+public class Carro extends Veiculos
+{
+
+	protected int numPortas; //Definindo atributo
+
+	public Carro(String Marca, String Modelo, String Combustível, int numPortas) 
+	{
+		super(Marca, Modelo, Combustível); //Atributos da superclasse
+		this.numPortas = numPortas;
+	}
+
+	public void setnumeroPortas(int numPortas)
+	{ //Setando para definir o valor de numeroPortas
+		this.numPortas = numPortas;
+	}
+
+	public int getnumeroPortas() 
+	{ //Setando para retornar o numeroPortas
+		return numPortas;
+	}
+}
