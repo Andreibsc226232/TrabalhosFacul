@@ -1,0 +1,23 @@
+package Model;
+
+public class Moto extends Veiculos
+{
+
+		protected int Cilindrada; //Definindo atributos
+
+		public Moto(String Marca, String Modelo, String Combustível, int Cilindrada)
+	{
+		super(Marca, Modelo, Combustível); //Atributos da super classe
+		this.Cilindrada = Cilindrada;
+	}
+
+	public void setCilindrada(int Cilindrada) 
+	{ 
+		this.Cilindrada = Cilindrada;
+	}
+
+	public int getCilindrada() 
+	{
+		return Cilindrada;
+	}
+}
